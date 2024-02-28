@@ -1,4 +1,5 @@
 body {
+  background-color: #333;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,138 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  /* display: flex;
+  background-color: #fff;
+  justify-content: center;
+  align-items: ;
+  height: 100vh; */
+  /* position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 450px; 
+  height: 100vh;
+  background-color: #181921;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px 20px 0 0; */
+  display: block;
+  background-color: #181921;
+  width: 400px; 
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px 30px 0 0;
+}
+
+.info{
+  display: block;
+  width: 400px;
+  text-align: center;
+}
+
+.info-picture{
+  display: block;
+  width: 400px;
+  border-radius: 30px 30px 0 0;
+}
+
+.info h1{
+  display: block;
+  color: azure;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+.info h2{
+  display: block;
+  color: bisque;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.info h3{
+  display: block;
+  color: #5093e2;
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.info-buttons{
+  display: flex;
+  justify-content: space-around;
+  padding: 1.2rem;
+}
+
+.info button {
+  width: 115px;
+  height: 34px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.-info-email a {
+  text-decoration: none;
+  color: #374151;
+}
+
+.-info-email {
+  background-color: #ffffff;
+  color: #374151;
+}
+
+.-info-linkedin a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.-info-linkedin {
+  background-color: #5093e2;
+  color: #ffffff;
+}
+
+.about{
+  display: block;
+  width: 370px;
+  color: #fff;
+  text-align: left;
+  margin: 15px;
+}
+
+.skills{
+  display: block;
+  width: 370px;
+  color: #fff;
+  text-align: left;
+  margin: 15px;
+}
+
+.foot{
+  display: block;
+  background-color: #374151;
+}
+.bottom-tag{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+  color: azure;
+}
+
+.bottom-tag > li {
+  width: 25px;
+  height: 25px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
